@@ -12,7 +12,7 @@ const PhotoNavbar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="/">Add Photo Entry</a>
+        <a class="nav-link active" aria-current="page" href="/Add">Add Photo Entry</a>
         <a class="nav-link" href="/ViewAll">View All Photos</a>
       </div>
     </div>
