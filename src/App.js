@@ -5,6 +5,7 @@ import ViewAllPhotos from './Components/ViewAllPhotos';
 import AddPhotoEntry from './AddPhotoEntry';
 import PhotoNavbar from './Components/PhotoNavbar';
 import Login from './Components/Login';
+import SignUp from './Components/SignUp';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/Add" element={<AddPhotoEntry />} />
       <Route path="/ViewAll" element={<ViewAllPhotos />} />
       <Route path="/" element={<Login />} />
+      <Route path="/SignUp" element={<SignUp />} />
     </Routes>
     </BrowserRouter>
   );
